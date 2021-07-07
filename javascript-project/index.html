@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <title>D&D</title>
+</head>
+<body>
+    
+    <header class="navigation-header">
+        <h1 class="title">Believe in Magic Shop</h1>
+        <div class="navigation-options-container">
+            <div class="headers-div">
+                    <div class="menu-options">
+                        <div class="menu-item">Shop</div>
+                        <div class="menu-item">Cart</div>
+                        <div class="menu-item" id="inventory-nav-button">Inventory</div>
+                    </div>
+                </div>
+                <nav class="shop-options">
+                    <ul>
+                        <li class="product-category" id="all-options">All</li>
+                        <li class="product-category" id="equip-nav">Equipment</li>
+                        <li class="product-category" id="spells-nav">Spells</li>
+                        <li class="product-category" id="skills-nav">Skills</li>
+                    </ul>
+                </nav>
+            </div>
+        <div class="shopkeeper-div">
+            <p class="shopkeeper-message">"Welcome Traveler! My name is Brandt Chirpus, what can I help you with?"</p>
+            <div class="shopkeeper-img-container"><img class="shopkeeper-image" src="shopkeeper-img.jpg" alt="fantasy shopkeeper"></div>
+
+        </div>
+    </header>
+
+
+
+
+<div class="desktop-container">
+<!-- Shop elements -->
+    <div class="main-content">
+        <div class="shop-item image-container-equip">
+            <div class="image-container">
+                <img class="img" src="/item-images/frostburn-equipment.jpg" alt="fiery sword">
+                <div class="description-container hidden">
+                    <div class="description">Frostburn, a rare item that harnesses the power of a chilling winter and a raging inferno!</div>
+                    <div class="brandt-chirpus-container"></div>
+                </div>
+            </div>
+            <div class="shelf">
+                <p class="product-name">Frostburn</p>
+            </div>
+            <div class="product-footer">
+                <div class="price-tag" value="#"><img class="coin-img" src="gold-coin-icon.png">
+                    <p class="coin-amnt">1,200</p>
+                </div>
+                <button class="button" value="1200" name="frostburn">Add to cart</button>
+            </div>
+            
+        </div>
+        <div class="shop-item image-container-equip">
+            <div class="image-container">
+                <img class="img" src = "./item-images/armor-equipment.jpeg" alt="Heavy Plate Armor">
+                <div class="description-container hidden">
+                    <div class="description">Plate Armor, to keep away those pesky sharp things.</div>
+                    <div class="brandt-chirpus-container"></div>
+                </div>
+            </div>
+            <div class="shelf">
+                <p class="product-name">Plate Armor</p>
+            </div>
+            <div class="product-footer">
+                <div class="price-tag" value="#"><img class="coin-img" src="gold-coin-icon.png">
+                    <p class="coin-amnt">120</p>
+                </div>
+                <button class="button" value="120" name="plate-armor">Add to cart</button>
+            </div>
+        </div>
+        <div class="shop-item image-container-equip">
+            <div class="image-container">
+                <img class="img" src = "./item-images/bag-of-holding-equipment.jpeg" alt="Magical bag of holding">
+                <div class="description-container hidden">
+                    <div class="description">A bag of holding, so you never run out of room!</div>
+                    <div class="brandt-chirpus-container"></div>
+                </div>
+            </div>
+            <div class="shelf">
+                <p class="product-name">Bag of Holding</p>
+            </div>
+            <div class="product-footer">
+                <div class="price-tag" value="#"><img class="coin-img" src="gold-coin-icon.png">
+                    <p class="coin-amnt">250</p>
+                </div>
+                <button class="button" value="250" name="bag-of-holding">Add to cart</button>
+            </div>
+        </div>
+        <div class="shop-item image-container-equip">
+            <div class="image-container">
+                <img class="img" src = "./item-images/helm-of-many-selves-equipment.jpg" alt="helmet with faces on it.">
+                <div class="description-container hidden">
+                    <div class="description">Ever wanted to clone yourself? Make a squad, made up of you!</div>
+                    <div class="brandt-chirpus-container"></div>
+                </div>
+            </div>
+            <div class="shelf">
+                <p class="product-name">Many Selves</p>
+            </div>
+            <div class="product-footer">
+                <div class="price-tag" value="#"><img class="coin-img" src="gold-coin-icon.png">
+                    <p class="coin-amnt">3,000</p>
+                </div>
+                <button class="button" value="3000" name="many-selves">Add to cart</button>
+             </div>   
+        </div>
+        <div class="shop-item image-container-spells">
+            <div class="image-container">
+                <img class="img" src = "./item-images/entomb-in-ice-spell.jpg" alt="creature trapped in ice">
+                <div class="description-container hidden">
+                    <div class="description">A spell to trap your enemies within an icy grasp.</div>
+                    <div class="brandt-chirpus-container"></div>
+                </div>
+            </div>
+            <div class="shelf">
+                <p class="product-name">Entomb in Ice</p>
+            </div>
+            <div class="product-footer">
+                <div class="price-tag" value="#"><img class="coin-img" src="gold-coin-icon.png">
+                    <p class="coin-amnt">150</p>
+                </div>
+                <button class="button" value="150" name="entomb-in-ice">Add to cart</button>
+             </div>   
+        </div>
+        <div class="shop-item image-container-spells">
+            <div class="image-container">
+                <img class="img" src = "./item-images/fireball-spell.jpeg" alt="Fireball spell">
+                <div class="description-container hidden">
+                    <div class="description">Useful for getting rid of dire spiders. All of them.</div>
+                    <div class="brandt-chirpus-container"></div>
+                </div>
+            </div>
+            <div class="shelf">
+                <p class="product-name">Fireball</p>
+            </div>
+            <div class="product-footer">
+                <div class="price-tag" value="#"><img class="coin-img" src="gold-coin-icon.png">
+                    <p class="coin-amnt">300</p>
+                </div>
+                <button class="button" value="300" name="fireball">Add to cart</button>
+             </div>   
+        </div>
+        <div class="shop-item image-container-spells">
+            <div class="image-container">
+                <img class="img" src = "./item-images/shield-spell.jpeg" alt="mage blocking with magic wall">
+                <div class="description-container hidden">
+                    <div class="description">For all of you mages who can't heft a shield!</div>
+                    <div class="brandt-chirpus-container"></div>
+                </div>
+            </div>
+            <div class="shelf">
+                <p class="product-name">Shield</p>
+            </div>
+            <div class="product-footer">
+                <div class="price-tag" value="#"><img class="coin-img" src="gold-coin-icon.png">
+                    <p class="coin-amnt">50</p>
+                </div>
+                <button class="button" value="50" name="shield">Add to cart</button>
+             </div>   
+        </div>
+        <div class="shop-item image-container-spells">
+            <div class="image-container">
+                <img class="img" src = "./item-images/quicken-spell.jpg" alt="person moving quickly with magic">
+                <div class="description-container hidden">
+                    <div class="description">You think you're fast now? Wait till you try this.</div>
+                    <div class="brandt-chirpus-container"></div>
+                </div>
+            </div>
+            <div class="shelf">
+                <p class="product-name">Quicken</p>
+            </div>
+            <div class="product-footer">
+                <div class="price-tag" value="#"><img class="coin-img" src="gold-coin-icon.png">
+                    <p class="coin-amnt">140</p>
+                </div>
+                <button class="button" value="140" name="quicken">Add to cart</button>
+             </div>   
+        </div>
+        <div class="shop-item image-container-skill"> 
+            <div class="image-container">
+                <img class="img" src = "/item-images/disarm-traps-skill.jpg" alt="dwarf disarming a wall trap">
+                <div class="description-container hidden">
+                    <div class="description">Traps are worrysome, learn to avoid the dangers of dungeon delving.</div>
+                    <div class="brandt-chirpus-container"></div>
+                </div>
+            </div>
+            <div class="shelf">
+                <p class="product-name">Disarm Traps</p>
+            </div>
+            <div class="product-footer">
+                <div class="price-tag" value="#"><img class="coin-img" src="gold-coin-icon.png">
+                    <p class="coin-amnt">200</p>
+                </div>
+                <button class="button" value="200" name="disarm-traps">Add to cart</button>
+             </div>   
+        </div>
+        <div class="shop-item image-container-skill"> 
+            <div class="image-container">
+                <img class="img" src = "/item-images/acrobatics-skill.jpeg" alt="person balancing on a mountain peak">
+                <div class="description-container hidden">
+                    <div class="description">You'll be nimble, you'll be quick!</div>
+                    <div class="brandt-chirpus-container"></div>
+                </div>
+            </div>
+            <div class="shelf">
+                <p class="product-name">Acrobatics</p>
+            </div>
+            <div class="product-footer">
+                <div class="price-tag" value="#"><img class="coin-img" src="gold-coin-icon.png">
+                    <p class="coin-amnt">100</p>
+                </div>
+                <button class="button" value="100" name="acrobatics">Add to cart</button>
+             </div>   
+        </div>
+        <div class="shop-item image-container-skill"> 
+            <div class="image-container">
+                <img class="img" src = "/item-images/unarmed-combat-skill.jpeg" alt="person punching in a fighting stance">
+                <div class="description-container hidden">
+                    <div class="description">Sometimes you gotta rely on the ole fisty-cuffs.</div>
+                    <div class="brandt-chirpus-container"></div>
+                </div>
+            </div>
+            <div class="shelf">
+                <p class="product-name">Unarmed Combat</p>
+            </div>
+            <div class="product-footer">
+                <div class="price-tag" value="#"><img class="coin-img" src="gold-coin-icon.png">
+                    <p class="coin-amnt">50</p>
+                </div>
+                <button class="button" value="50" name="unarmed-combat">Add to cart</button>
+             </div>   
+        </div>
+        <div class="shop-item image-container-skill">
+            <div class="image-container">
+                <img class="img" src = "./item-images/dual-wielding-skill.jpg" alt="Person wielding two swords">
+                <div class="description-container hidden">
+                    <div class="description">What's better than one sword? Two of course!</div>
+                    <div class="brandt-chirpus-container"></div>
+                </div>
+            </div>
+            <div class="shelf">
+                <p class="product-name">Dual Wielding</p>
+            </div>
+            <div class="product-footer">
+                <div class="price-tag" value="#"><img class="coin-img" src="gold-coin-icon.png">
+                    <p class="coin-amnt">80</p>
+                </div>
+                <button class="button" value="80" name="dual-wielding">Add to cart</button>
+             </div>   
+        </div>
+    </div>
+
+<!-- Cart items -->
+
+<div class="cart-content hidden">
+    <p class="my-cart-title">My Cart</p>
+    <div class="money-due">
+        <div class="money-value-container">
+            <p class="money-label">Sub-total:</p>
+            <p class="sub-total"></p>
+        </div>
+        <div class="money-value-container">
+            <p class="money-label">Tax:</p>
+            <p class="tax"></p>
+        </div>
+        <div class="money-value-container">
+            <p class="money-label">Total:</p>
+            <p class="total"></p>
+        </div>
+    </div>
+    <div class="cart-container">
+        <p class="cart-items-pre-checkout">Cart Items</p>
+        <!-- this is where the selected items will be
+        added to the cart object as an array -->
+    </div>
+    <div class="payment-options">
+        <button class="checkoutbtn">Checkout</button>
+        <button class="paybtn paycash hidden">Pay with Cash</button>
+        <button class="paybtn paycard hidden">Pay with Card</button>
+        <div class="cashoption hidden">
+           <form action="#" class="cash-form">
+                <label for="cashinput">Gold amount</label>
+                <input id="cashinput" type="number" name="cashinput">
+                <button id="paywithcashbtn" type="submit">Pay</button>
+                    <!-- <div class="change-due">
+                        <p class="change-due-message"></p>
+                    </div> -->
+        </form>
+        </div>
+        <div class="cardoption hidden">
+            <form class="card-form" action="#">
+                <label for="cardnum">Card Number</label>
+                <input id="cardnum" type="number" name="cardnum" placeholder="xxxx-xxxx-xxxx-xxxx">
+                <label for="expiration">Expiration</label>
+                <input id="expiration" type="date" name="expiration">
+                <label for="cvv">CVV</label>
+                <input form="cvv" type="text" name="cvv" placeholder="xxx">
+                <button id="paywithcardbtn" type="submit">Place order</button>
+            </form>
+        </div>
+        <div class="change-due">
+            <p class="change-due-message"></p>
+        </div>
+    </div>
+</div>
+<!-- Inventory Items -->
+    <div class="inventory-content hidden">
+        <div class="inventory-container">
+            <p class="my-inventory-title">My Inventory</p>
+            <!-- this is where the divs that are the items will be pushed to -->
+        </div>
+
+    </div>
+
+
+<!-- desktop version, inventory showing with next to shop/cart. -->
+    <div class="desktop-inv">
+        <div class="desktop-inv-container">
+            <p class="my-inventory-title">My Inventory</p>
+            <!-- push cartItems to this div as well, after purchased -->
+        </div>
+    </div>
+<!-- desktop container end -->
+</div>
+
+
+
+    <!--<footer class="checkout-area">
+        <button>Checkout</button>
+    </footer>-->
+
+
+    <!-- JavaScript -->
+    <script src="./script.js" type="text/javascript"></script>
+</body>
+
+</html>

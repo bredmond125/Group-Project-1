@@ -1,0 +1,425 @@
+body {
+    font-family: 'Amatic SC';
+    font-size: 20px;
+    background-color: black;
+    /* background-image: url(/item-images/shop-background2.jpeg);
+    background-size: cover; */
+    margin: 2px;
+    padding: 0;
+}
+
+.title {
+    color: rgb(223, 223, 223);
+
+}
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/item-images/shop-background2.jpeg);
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+
+}
+
+.menu-options {
+    display: flex;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(161, 117, 88, .7);
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.menu-item {
+    padding: 10px;
+    background-color: white;
+    background-image: url(/item-images/nav-image.png);
+    background-size: cover;
+    border-radius: 10px;
+    border: solid black 1px;
+    width: 50px;
+    text-align: center;
+}
+
+nav {
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(161, 117, 88, .7);
+    border-radius: 10px;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    background-color: white;
+    background-image: url(/item-images/nav-image.png);
+    background-size: contain;
+    border-radius: 10px;
+}
+
+.product-category {
+    border: solid black 1px;
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+}
+
+.main-content {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid #48251b 5px;
+    margin: 20px auto;
+    background-color: #904a37;
+    background-image: url(/item-images/woodgrain2.jpg);
+    border-radius: 10px;
+    
+
+}
+
+.shop-item {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    margin: 20px 20px;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: rgb(222, 184, 135, .4);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    
+}
+
+.product-footer {
+    display: flex;
+    align-items: space-between;
+    margin: 10px;
+    justify-content: space-between;
+}
+.image-container {
+    margin: 10px 20px 0px 20px;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    align-self: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.shelf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    background-image: url(/item-images/shelf-image.png);
+}
+
+.product-name {
+    height: 27px;
+    width: 100px;
+    background-image: url(/item-images/scroll-image.png);
+    background-size: contain;
+    margin: 0;
+    text-align: center;
+}
+
+.description-container {
+    display: flex;
+    position: fixed;
+    transform: translateX(-24%);
+    bottom: 10px;
+    z-index: 1;
+    height: 50px;
+    border: solid #48251b 2px;
+    border-radius: 10px;
+    background-color: rgb(222, 184, 135, .5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.brandt-chirpus-container {
+    background-image: url(/shopkeeper-img.jpg);
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.checkout-area {
+    display: flex;
+    justify-content: center;
+}
+
+.cart-content {
+    background-color: rgb(139, 129, 129);
+    border: solid black 2px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.my-cart-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.price-tag {
+    color: #745715;
+    font-style: bold;
+    display: flex;
+    justify-content: row;
+}
+
+.coin-img {
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    margin: 0 5px 0 0;
+}
+
+.coin-amnt {
+    color: black;
+}
+
+.inventory-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+button {
+    border-style: none;
+    background-color: #AB7E66;
+    color: white;
+    border-radius: 6px;
+    width: 80px;
+    max-height: 50px;
+    margin: 2px;
+}
+
+button:active {
+    color:  #AB7E66;
+    background-color: white;
+}
+
+
+.inventory-purchased-items {
+    background-color: rgb(119, 106, 92);
+    color: gold;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.my-inventory-title {
+    font-size: 30px;
+}
+
+.payment-options {
+    display: flex;
+    justify-content: center;
+}
+
+.desktop-inv {
+    display: none;
+}
+
+.shopkeeper-div {
+    display: none;
+    align-self: flex-end;
+}
+
+.navigation-header {
+    display: flex;
+    justify-content: center;
+}
+
+.shopkeeper-message {
+    background-color: rgba(128, 128, 128, 0.863);
+    color:skyblue;
+    border-radius: 5px;
+    padding: 10px;
+    max-height: 150px;
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.change-due-message {
+    margin: 4px;
+}
+
+.money-value-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.cart-items-pre-checkout {
+    text-align: center;
+}
+
+.checkoutbtn {
+    padding: 5px;
+    background-color:rgb(156, 9, 38);
+    border-style: solid;
+    border-width: solid;
+    border-color:black;
+}
+
+#paywithcashbtn {
+    background-color:rgb(156, 9, 38);
+    border-style: solid;
+    border-width: solid;
+    border-color: black;
+ 
+}
+
+.paybtn {
+    background-color: rgb(156, 9, 38);
+    border-style: solid;
+    border-width: solid;
+    border-color: black;
+}
+
+#paywithcardbtn {
+    background-color: rgb(156, 9, 38);
+    border-style: solid;
+    border-width: solid;
+    border-color: black;
+
+}
+
+/* Desktop version settings */
+
+
+
+@media only screen and (min-width:768px) {
+    body {
+        background-color: tan;
+    }
+    p {
+        margin: 0 0 0 5px;
+    }
+    .main-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        max-width: 900px;
+    }
+    .desktop-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .desktop-inv {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 400px;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(80, 71, 63);
+        margin: 20px 40px 20px 20px;
+        background-color: rgb(119, 106, 92);
+    }
+
+    .desktop-inv-container {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 40px;
+    }
+
+    .shopkeeper-div {
+        display: flex;
+        margin: 0 0 0 40px;
+    }
+    .description-container {
+        position: static;
+        z-index: 3;
+        height: 50px;
+        border: none;
+        background-color: none;
+        box-shadow: none;
+    }
+
+    .shopkeeper-img-container {
+        margin: 0 0 0 10px;
+    }
+
+    .shopkeeper-image {
+        border-radius: 20px;
+        border-style: solid;
+        border-color: gray;
+    }
+
+    #inventory-nav-button {
+        display: none;
+    }
+
+    .brandt-chirpus-container {
+        display: none;
+    }
+
+    .checkoutbtn {
+        padding: 5px;
+        background-color:rgb(156, 9, 38);
+        border-style: solid;
+        border-width: solid;
+        border-color:black;
+    }
+    
+    #paywithcashbtn {
+        background-color:rgb(156, 9, 38);
+        border-style: solid;
+        border-width: solid;
+        border-color: black;
+     
+    }
+    
+    .paybtn {
+        background-color: rgb(156, 9, 38);
+        border-style: solid;
+        border-width: solid;
+        border-color: black;
+    }
+    
+    #paywithcardbtn {
+        background-color: rgb(156, 9, 38);
+        border-style: solid;
+        border-width: solid;
+        border-color: black;
+    
+    }
+}

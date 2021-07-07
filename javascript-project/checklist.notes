@@ -1,0 +1,30 @@
+Syntax provided by Notes by canadaduane
+
+-typing *newday* (minus the *) provides a block of organizational headings as seen below
+
+[2021-05-15]
+Notes:
+Ideas:
+TODO:
+Activity Log:
+
+-to add checkboxes to a TODO list, use "cmd + L" on PC and "opt + L" on Mac
+-use the same command as above while on the same line as a checkbox to cycle through checkmarks
+[x] 
+[!] 
+[√] 
+---------------------------------------------------------------------------------------------------------
+
+TODO:
+[ ] Mobile version
+[ ] Desktop version
+[ ] A list of 10 different products
+[ ] Each has a property for name, category, description, and price
+[ ] A menu that lets user select item to purchase
+[ ] Items are added to cart until the user is ready for checkout
+[ ] User can checkout and view their cart
+[ ] Provide subtotal, sales tax, and total
+[ ] If user pays with cash, ask for amount tendered and provide change
+[ ] If user pays with card, ask for card number, expiration, and CVV
+[ ] Provide a receipt that includes items bought, subtotal, total, and anything else of interest
+[ ] Extended Challenge: Implement validation for credit card numbers
